@@ -9,9 +9,9 @@
 To setup the extension, run the following (tested with Cygwin):
 
 ```
-git clone -b ept_split https://github.com/Randshot/hypervisor
-git clone -b ept_split https://github.com/Randshot/extended_apis
-git clone https://github.com/Randshot/ept_split.git
+git clone -b ept_split https://github.com/cnork/hypervisor
+git clone -b ept_split https://github.com/cnork/extended_apis
+git clone https://github.com/cnork/ept_split.git
 mkdir build; cd build
 cmake ../hypervisor -DCONFIG=../ept_split/config.cmake
 make -j<# cores + 1>
