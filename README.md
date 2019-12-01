@@ -39,3 +39,5 @@ To stop and unload the hypervisor, run the following commands:
 make unload
 make driver_unload
 ```
+
+note: eventually the path to the certmgr tool in the driver_load.sh script has to be adjusted to your installed windowskits. It can be found in "..\hypervisor\scripts\util"
